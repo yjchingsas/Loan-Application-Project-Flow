@@ -1,0 +1,18 @@
+[
+    {
+        "step": "install requests",
+        "command": "pip install requests"
+    },
+    {
+        "step": "install sklearn",
+        "command": "pip install sklearn==0.24.2"
+    },
+    {
+        "step": "install numpy",
+        "command": "pip install numpy==1.21.2"
+    },
+    {
+        "step": "install pandas",
+        "command": "pip install pandas==1.3.2"
+    }
+]
