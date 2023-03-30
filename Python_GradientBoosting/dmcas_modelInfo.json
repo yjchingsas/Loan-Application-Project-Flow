@@ -1,0 +1,17 @@
+{
+  "scoreType" : "python",
+  "algorithm" : "opensrc",
+  "algorithmI18N" : "opensrc.node.name.txt",
+  "enableRegistration" : "true",
+  "enableScoring" : "false",
+  "python" : {
+    "opensrc1" : {
+      "scoreCode" : "_4eciaroqodklgq7s8o0p6y4r5.py",
+      "scoreInput" : "_4eciaroqodklgq7s8o0p6y4r5_si.json",
+      "scoreOutput" : "_4eciaroqodklgq7s8o0p6y4r5_so.json",
+      "scoreResources" : {
+        "resource1" : "_4ECIAROQODKLGQ7S8O0P6Y4R5_PKL"
+      }
+    }
+  }
+}

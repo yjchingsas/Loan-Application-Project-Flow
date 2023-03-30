@@ -1,0 +1,23 @@
+{
+   "creationTimeStamp": "2023-03-06T08:09:28.492Z",
+   "createdBy": "YiJian.Ching@sas.com",
+   "modifiedTimeStamp": "2023-03-30T23:46:14.487Z",
+   "modifiedBy": "YiJian.Ching@sas.com",
+   "id": "bded23e3-0744-4136-9f8b-205452133a61",
+   "name": "Python GradientBoosting (Pipeline 1)",
+   "scoreCodeType": "python",
+   "algorithm": "opensrc",
+   "function": "classification",
+   "modeler": "YiJian.Ching@sas.com",
+   "trainTable": "/dataTables/dataSources/cas~fs~cas-shared-default~fs~Public/tables/IDMMHMEQ_CUSTID",
+   "eventProbVar": "P_Default1",
+   "targetVariable": "Default",
+   "targetEvent": "1",
+   "targetLevel": "binary",
+   "tool": "Model Studio",
+   "toolVersion": "V2023.01",
+   "publishTimeStamp": 1680219969537,
+   "externalModelId": "4a4bf000-3cb2-4ad7-a7d7-a2823f8a1691",
+   "modelVersionName": "6.0",
+   "custom properties": []
+}
