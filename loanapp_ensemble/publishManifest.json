@@ -1,0 +1,437 @@
+{
+  "creationTimeStamp": "2023-03-30T08:53:02.11488243Z",
+  "createdBy": "YiJian.Ching@sas.com",
+  "modifiedTimeStamp": "2023-03-30T08:53:02.11488243Z",
+  "modifiedBy": "YiJian.Ching@sas.com",
+  "version": 1,
+  "id": "ca09adf0-b923-4a3f-b94d-5cc987738c35",
+  "destinationName": "GitHub Flow Publishing",
+  "destination": {
+    "creationTimeStamp": "2022-08-14T03:40:26.813889Z",
+    "createdBy": "YiJian.Ching@sas.com",
+    "modifiedTimeStamp": "2022-08-14T03:40:26.813889Z",
+    "modifiedBy": "YiJian.Ching@sas.com",
+    "version": 2,
+    "id": "014c1312-184b-4b79-a0cc-06ed1139f50a",
+    "name": "GitHub Flow Publishing",
+    "description": "GitHub Flow publishing destination",
+    "destinationType": "git",
+    "properties": [
+      {
+        "name": "remoteRepositoryURL",
+        "value": "https://github.com/yjchingsas/Loan-Application-Project-Flow.git"
+      },
+      {
+        "name": "localRepositoryLocation",
+        "value": "/mmprojectpublic"
+      },
+      {
+        "name": "userEmail",
+        "value": "YiJian.Ching@sas.com"
+      },
+      {
+        "name": "credDomainId",
+        "value": "GitHub Domain Flow"
+      }
+    ],
+    "links": [
+      {
+        "method": "GET",
+        "rel": "up",
+        "href": "/modelPublish/destinations",
+        "uri": "/modelPublish/destinations",
+        "type": "application/vnd.sas.collection"
+      },
+      {
+        "method": "GET",
+        "rel": "self",
+        "href": "/modelPublish/destinations/GitHub Flow Publishing",
+        "uri": "/modelPublish/destinations/GitHub Flow Publishing",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "DELETE",
+        "rel": "delete",
+        "href": "/modelPublish/destinations/GitHub Flow Publishing",
+        "uri": "/modelPublish/destinations/GitHub Flow Publishing"
+      },
+      {
+        "method": "PUT",
+        "rel": "update",
+        "href": "/modelPublish/destinations/GitHub Flow Publishing",
+        "uri": "/modelPublish/destinations/GitHub Flow Publishing",
+        "type": "application/vnd.sas.models.publishing.destination"
+      },
+      {
+        "method": "GET",
+        "rel": "getGitFolders",
+        "href": "/modelPublish/destinations/GitHub Flow Publishing/gitFolders",
+        "uri": "/modelPublish/destinations/GitHub Flow Publishing/gitFolders",
+        "type": "application/vnd.sas.collection"
+      }
+    ]
+  },
+  "content": {
+    "creationTimeStamp": "0001-01-01T00:00:00Z",
+    "modifiedTimeStamp": "0001-01-01T00:00:00Z",
+    "modelName": "loanapp_ensemble",
+    "codeType": "ds2",
+    "codeURI": "/decisions/flows/01127f95-a0fc-4922-b117-c9aeb02bddd3/revisions/030ecd49-8538-43da-bfc4-14c8c582c22c/code?rootPackageName=loanapp_ensemble\u0026lookupMode=INLINE\u0026treatmentGroupMode=INLINE\u0026globalVariableMode=INLINE\u0026traversedPathFlag=false\u0026isGeneratingRuleFiredColumn=false\u0026codeTarget=gitMas",
+    "codeMediaType": "text/vnd.sas.source.ds2.async",
+    "sourceURI": "/decisions/flows/01127f95-a0fc-4922-b117-c9aeb02bddd3/revisions/030ecd49-8538-43da-bfc4-14c8c582c22c",
+    "publishLevel": "decision"
+  },
+  "properties": {
+    "gitFolderPath": "loanapp_ensemble",
+    "gitRepositoryURL": "https://github.com/yjchingsas/Loan-Application-Project-Flow.git"
+  },
+  "sourceURI": "/decisions/flows/01127f95-a0fc-4922-b117-c9aeb02bddd3/revisions/030ecd49-8538-43da-bfc4-14c8c582c22c",
+  "resources": [
+    {
+      "uri": "/businessRules/ruleSets/0bc01e7f-923c-4c7e-a962-a4228a6982cb/revisions/151ce176-acdb-4a77-bbc6-92c2224d5d66",
+      "mediaType": "application/vnd.sas.business.rule"
+    },
+    {
+      "uri": "/modelRepository/models/bded23e3-0744-4136-9f8b-205452133a61",
+      "mediaType": "application/vnd.sas.models.model"
+    },
+    {
+      "uri": "/businessRules/ruleSets/11df70a9-722f-4727-84de-39835a8778b9/revisions/2aceab2f-0af6-4012-af2c-e89d588d2c77",
+      "mediaType": "application/vnd.sas.business.rule"
+    },
+    {
+      "uri": "/businessRules/ruleSets/db98e5e7-00b9-4317-afd7-110fee87a41d/revisions/a01efdb9-eb22-4d80-a4b1-b663da98f380",
+      "mediaType": "application/vnd.sas.business.rule"
+    },
+    {
+      "uri": "/modelRepository/models/4e40ba67-1abe-4a6f-864b-8d1fe46a7003",
+      "mediaType": "application/vnd.sas.models.model"
+    },
+    {
+      "uri": "/decisions/codeFiles/80532eaa-a46c-4569-8982-c45b1732fcf4/revisions/18732958-11a4-4edf-a366-8c686ccddbd3",
+      "mediaType": "application/vnd.sas.decision.code.file"
+    },
+    {
+      "uri": "/businessRules/ruleSets/c5038f90-ffea-47d4-9e21-4a4353ad3a52/revisions/cf1cca4a-e513-463b-8989-2792fe4d3ad1",
+      "mediaType": "application/vnd.sas.business.rule"
+    }
+  ],
+  "inputVariables": [
+    {
+      "name": "CredLineAge",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "CredLines",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "CustomerID",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "DebtIncRatio",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Delinquencies",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "DerogatoryMarks",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "HomeValue",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Income",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Inquiries",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "JobType",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "LoanRequest",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "LoanToValue",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "YearsOnJob",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    }
+  ],
+  "outputVariables": [
+    {
+      "name": "CredLineAge",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "CredLines",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "CustomerID",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "DebtIncRatio",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Delinquencies",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "DerogatoryMarks",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "HomeValue",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Income",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Inquiries",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "JobType",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "LoanRequest",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "LoanToValue",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Model_Status",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "P_Default0",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "P_Default1",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "Status",
+      "description": "",
+      "role": "",
+      "type": "string",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    },
+    {
+      "name": "YearsOnJob",
+      "description": "",
+      "role": "",
+      "type": "decimal",
+      "level": "",
+      "format": "",
+      "aggregation": "",
+      "length": null
+    }
+  ],
+  "component": {
+    "majorVersion": 1,
+    "name": "Loan App Ensemble"
+  },
+  "product": {
+    "majorVersion": 3,
+    "minorVersion": 66,
+    "versionName": "3.66.8",
+    "name": "Decisions Service"
+  },
+  "service": {
+    "name": "Model Publish service"
+  },
+  "baseImage": {}
+}
