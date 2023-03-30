@@ -1,0 +1,33 @@
+{
+    "creationTimeStamp" : "2023-03-30T07:26:20.646Z",
+    "modifiedTimeStamp" : "2023-03-30T08:42:31.121Z",
+    "createdBy" : "YiJian.Ching@sas.com",
+    "modifiedBy" : "YiJian.Ching@sas.com",
+    "id" : "030ecd49-8538-43da-bfc4-14c8c582c22c",
+    "description" : "Loan application decision flow",
+    "majorRevision" : 1,
+    "minorRevision" : 0,
+    "signature" : [ ],
+    "links" : [
+        {
+            "method" : "GET",
+            "rel" : "workflowtasks",
+            "href" : "/workflow/processes/WF72df6d55-2643-4a8c-b4a7-d9dfa6d5fd6f/tasks",
+            "uri" : "/workflow/processes/WF72df6d55-2643-4a8c-b4a7-d9dfa6d5fd6f/tasks",
+            "type" : "application/vnd.sas.collection",
+            "itemType" : "application/vnd.sas.workflow.task"
+        }
+    ],
+    "decisionId" : "01127f95-a0fc-4922-b117-c9aeb02bddd3",
+    "nodeCount" : 13,
+    "sourceRevisionUri" : "/decisions/flows/50896d5f-17e0-43b1-a4af-ed36dbfb7c18/revisions/d39df366-c6a4-4c8c-9a2c-6553ed6fbf08",
+    "properties" : {
+        "workflowModifiedBy" : "YiJian.Ching@sas.com",
+        "workflowModifiedTimeStamp" : "2023-03-30T07:26:21.550Z",
+        "workflowProcessId" : "WF72df6d55-2643-4a8c-b4a7-d9dfa6d5fd6f",
+        "workflowState" : "Developing"
+    },
+    "copyTimeStamp" : "2023-03-30T07:26:20.646Z",
+    "checkout" : false,
+    "version" : 17
+}
